@@ -15,6 +15,7 @@ const sidebarMenu = shallowRef(sidebarItems);
 
 <template>
   <v-navigation-drawer
+    width="300"
     left
     v-model="customizer.Sidebar_drawer"
     elevation="0"
