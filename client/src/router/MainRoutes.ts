@@ -59,9 +59,10 @@ const MainRoutes = {
 
     // 품질_20250807_정경준
     {
+      // 원자재검수관리
       name: 'Quality',
-      path: '/quality/materialList',
-      component: () => import('../views/quality/material/MaterialList.vue')
+      path: '/quality/materialmanage',
+      component: () => import('@/views/quality/material/MaterialManage.vue')
     }
     // {
     //   name: 'Quality',
