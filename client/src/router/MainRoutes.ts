@@ -45,7 +45,7 @@ const MainRoutes = {
       name: 'Colors',
       path: '/utils/colors',
       component: () => import('@/views/utilities/colors/ColorPage.vue')
-    }
+    },
     // 페이지 생성 후 여기 아래 라우터 생성.
     // 기준정보
 
@@ -57,8 +57,17 @@ const MainRoutes = {
 
     // 설비
 
-    // 품질
-
+    // 품질_20250807_정경준
+    {
+      name: 'Quality',
+      path: '/quality/materialList',
+      component: () => import('../views/quality/material/MaterialList.vue')
+    }
+    // {
+    //   name: 'Quality',
+    //   path: '/quality/materialManage',
+    //   component: () => import('@/views/quality/material/MaterialManagement.vue')
+    // }
     // 물류
   ]
 };
