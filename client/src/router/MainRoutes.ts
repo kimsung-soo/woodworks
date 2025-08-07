@@ -47,6 +47,19 @@ const MainRoutes = {
       component: () => import('@/views/utilities/colors/ColorPage.vue')
     }
     // 페이지 생성 후 여기 아래 라우터 생성.
+    // 기준정보
+
+    // 영업
+
+    // 자재
+
+    // 생산
+
+    // 설비
+
+    // 품질
+
+    // 물류
   ]
 };
 
