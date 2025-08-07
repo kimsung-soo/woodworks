@@ -61,8 +61,18 @@ const MainRoutes = {
     }
     // 설비
 
-    // 품질
-
+    // 품질_20250807_정경준
+    {
+      // 원자재검수관리
+      name: 'Quality',
+      path: '/quality/materialmanage',
+      component: () => import('@/views/quality/material/MaterialManage.vue')
+    }
+    // {
+    //   name: 'Quality',
+    //   path: '/quality/materialManage',
+    //   component: () => import('@/views/quality/material/MaterialManagement.vue')
+    // }
     // 물류
   ]
 };
