@@ -54,13 +54,12 @@ const MainRoutes = {
     // 자재
 
     // 생산
-
-    // 설비
     {
-      name: 'equipmentList',
-      path: '/utils/equipmentList',
-      component: () => import('@/views/facility/EquipmentRegistration.vue')
+      name: 'WorkOrder',
+      path: '/views/production',
+      component: () => import('@/views/production/WorkOrder.vue')
     }
+    // 설비
 
     // 품질
 

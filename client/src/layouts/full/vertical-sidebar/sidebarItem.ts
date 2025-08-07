@@ -216,7 +216,7 @@ const sidebarItem: menu[] = [
         children: [
           {
             title: '작업지시 관리',
-            to: '/dashboard/default'
+            to: '/views/production'
           },
           {
             title: '작업지시 조회',
@@ -259,7 +259,7 @@ const sidebarItem: menu[] = [
           },
           {
             title: '설비 등록',
-            to: '/utils/equipmentList'
+            to: '/dashboard/default'
           },
           {
             title: '설비 수정',
