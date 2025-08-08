@@ -60,6 +60,11 @@ const MainRoutes = {
       component: () => import('@/views/production/WorkOrder.vue')
     }
     // 설비
+    {
+      name: 'equipmentList',
+      path: '/utils/equipmentList',
+      component: () => import('@/views/facility/EquipmentRegistration.vue')
+    }
 
     // 품질_20250807_정경준
     {

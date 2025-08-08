@@ -259,7 +259,7 @@ const sidebarItem: menu[] = [
           },
           {
             title: '설비 등록',
-            to: '/dashboard/default'
+            to: '/utils/equipmentList'
           },
           {
             title: '설비 수정',
