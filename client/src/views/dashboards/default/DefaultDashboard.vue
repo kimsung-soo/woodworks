@@ -9,11 +9,11 @@
 
 <template>
   <div class="safety-banner">
+    <img src="@/assets/images/logos/gg.svg" alt="공작이" class="gongjaki" />
     <div class="safety-text">
       <p><strong>작업의 기본은 안전,</strong></p>
       <p><strong>완성의 핵심은 디테일</strong></p>
     </div>
-    <img src="@/assets/images/logos/gg.svg" alt="공작이" class="gongjaki" />
   </div>
   <!-- <v-row> -->
   <!-- -------------------------------------------------------------------- -->
@@ -53,25 +53,21 @@
 
 <style scoped>
 .safety-banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f5f5f5;
-  padding: 24px 32px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  width: 100%;
-}
-
-.safety-text {
-  font-size: 1.4rem;
-  font-weight: bold;
-  line-height: 1.8;
-  color: #000;
+  background-color: rgb(var(--v-theme-secondary), 0.05);
 }
 
 .gongjaki {
-  height: 140px;
-  width: auto;
+  width: 250px;
+  margin-top: 27%;
+}
+
+.safety-text {
+  /* margin-left: 2rem; */
+  margin-right: 15rem;
+  font-size: 6rem;
+}
+
+strong {
+  user-select: none;
 }
 </style>
